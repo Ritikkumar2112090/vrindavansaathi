@@ -46,7 +46,7 @@ import Footer from "@/componants/Footer";
 import { useToast } from "@/hooks/use-toast";
 // JWT-based authentication for admin functionality
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = 'https://backend-p40q.onrender.com/api';
 
 // JWT token management
 const TOKEN_KEY = 'admin_token';
@@ -2476,3 +2476,4 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
