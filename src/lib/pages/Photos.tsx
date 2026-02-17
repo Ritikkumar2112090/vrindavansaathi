@@ -6,7 +6,7 @@ import { Upload, Download, Trash2, Image, Video, Camera, Plus, Edit, Share, Mini
 import { useToast } from "@/hooks/use-toast";
 
 // API Base URL
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = 'https://backend-p40q.onrender.com/api';
 
 // Import pre-loaded images
 import krishnaJanmabhumi from "@/assets/s.jpeg";
