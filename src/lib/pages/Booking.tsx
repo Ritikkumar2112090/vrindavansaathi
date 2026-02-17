@@ -94,7 +94,7 @@ const Booking = () => {
       };
 
       // Send booking data to backend API
-      const response = await fetch('http://localhost:5001/api/bookings', {
+      const response = await fetch('https://backend-p40q.onrender.com/api/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -457,3 +457,4 @@ const Booking = () => {
 };
 
 export default Booking;
+
