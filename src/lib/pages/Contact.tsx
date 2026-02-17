@@ -27,7 +27,7 @@ const Contact = () => {
 
     try {
       // Submit to complaints API
-      const complaintResponse = await fetch('http://localhost:5001/api/complaints', {
+      const complaintResponse = await fetch('https://backend-p40q.onrender.com/api/complaints', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -274,3 +274,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
