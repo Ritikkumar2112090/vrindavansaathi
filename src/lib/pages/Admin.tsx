@@ -6,6 +6,7 @@ import { Label } from "@/componants/ui/label";
 import { Badge } from "@/componants/ui/badge";
 import { Textarea } from "@/componants/ui/textarea";
 import { createRoot } from "react-dom/client";
+import logo from "@/assets/logo11.jpeg";
 import {
   Select,
   SelectContent,
@@ -1996,7 +1997,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
               <DialogHeader>
                 <DialogTitle className="flex items-center gap-2">
                   <Receipt className="w-5 h-5" />
-                  Official Bill - {selectedBooking?.name}
+                  Official Bill 
                 </DialogTitle>
                 <DialogDescription>
                   Complete bill details for this booking
@@ -2010,7 +2011,13 @@ const fileInputRef = useRef<HTMLInputElement>(null);
                       {/* Header */}
                       <div className="text-center mb-8">
                         <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <Receipt className="w-10 h-10 text-white" />
+                          <Link to="/" className="flex-shrink-0 p-0.5">
+                            <img 
+                             src={logo} 
+                             alt="Logo" 
+                             className="h-8 md:h-10 lg:h-12 w-auto object-contain transition-all"
+                            />
+                         </Link>
                         </div>
                         <h2 className="text-3xl font-bold text-gray-800 mb-2">Vrindavan Saathi</h2>
                         <p className="text-gray-600">Spiritual Journey Tours</p>
@@ -2476,4 +2483,5 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
 
