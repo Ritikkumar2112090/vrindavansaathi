@@ -2113,7 +2113,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
                             </div>
                             <div>
                               <p className="text-sm text-gray-600 mb-1">Payment Methods</p>
-                              <p className="font-medium">Cash, UPI, Card, Bank Transfer</p>
+                              <p className="font-medium">Cash, UPI,Bank Transfer</p>
                             </div>
                           </div>
                           <div className="mt-4 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
@@ -2484,6 +2484,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
 
 
 
