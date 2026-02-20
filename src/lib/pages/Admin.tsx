@@ -2012,7 +2012,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
                       {/* Header */}
                       <div className="text-center mb-8">
                         <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <Link to="/" className="flex-shrink-0 p-0.5">
+                          <Link to="/" className="w-20 h-20 bg-blue-600 rounded-full">
                             <img 
                              src={logo} 
                              alt="Logo" 
@@ -2484,6 +2484,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
 
 
 
