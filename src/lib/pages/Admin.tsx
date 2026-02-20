@@ -7,7 +7,7 @@ import { Badge } from "@/componants/ui/badge";
 import { Textarea } from "@/componants/ui/textarea";
 import { createRoot } from "react-dom/client";
 import logo from "@/assets/logo11.jpeg";
-import { Link } from "react-router-dom";
+
 import {
   Select,
   SelectContent,
@@ -2012,13 +2012,13 @@ const fileInputRef = useRef<HTMLInputElement>(null);
                       {/* Header */}
                       <div className="text-center mb-8">
                         <div className="flex items-center justify-center mx-auto mb-4">
-                          <Link to="/" ">
+                         
                             <img 
                              src={logo} 
                              alt="Logo" 
                              className="w-20 h-20  rounded-full object-contain transition-all"
                             />
-                         </Link>
+                         
                         </div>
                         <h2 className="text-3xl font-bold text-gray-800 mb-2">Vrindavan Saathi</h2>
                         <p className="text-gray-600">Spiritual Journey Tours</p>
@@ -2484,6 +2484,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
 
 
 
