@@ -2016,7 +2016,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
                             <img 
                              src={logo} 
                              alt="Logo" 
-                             className="h-8 md:h-10 lg:h-12 w-auto object-contain transition-all"
+                             className="w-20 h-20  rounded-full object-contain transition-all"
                             />
                          </Link>
                         </div>
@@ -2484,6 +2484,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
 
 
 
