@@ -2011,8 +2011,8 @@ const fileInputRef = useRef<HTMLInputElement>(null);
                     <div key={bill.id} id={`bill-card-${bill.id}`} className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-xl">
                       {/* Header */}
                       <div className="text-center mb-8">
-                        <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <Link to="/" className="w-20 h-20 bg-blue-600 rounded-full">
+                        <div className="flex items-center justify-center mx-auto mb-4">
+                          <Link to="/" ">
                             <img 
                              src={logo} 
                              alt="Logo" 
@@ -2484,6 +2484,7 @@ const fileInputRef = useRef<HTMLInputElement>(null);
 };
 
 export default Admin;
+
 
 
 
